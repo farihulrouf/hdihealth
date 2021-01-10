@@ -1,0 +1,95 @@
+
+/* for tablet */
+@media all and (max-width: 1000px) {
+    section {
+        padding: 70px;
+    }
+
+    header ul li a {
+        font-weight: 200;
+        margin-left: 20px;
+    }
+
+    header .logo {
+        position: relative;
+        max-width: 60px;
+    }
+
+    .content .textbox h2 {
+        font-size: 2em;
+        line-height: 1em;
+        font-weight: 700;
+    }
+
+    .content .textbox h2 span {
+        font-size: 1em;
+    }
+
+    .content .imgBox img {
+        max-width: 200px;
+    }
+
+    .thumb li img {
+         max-width: 30px;
+    }
+
+    .content .textbox p {   
+        margin-right: 10px;
+    }
+
+    .content .imgBox {
+        padding-right: 10px;
+    }
+
+
+    /*--------- section product ---------------*/
+
+    .section-product {
+        height: 50%;
+    } 
+
+    .section-product .promotion__container1 img {
+         width: 220px; 
+    }
+
+
+
+    /* -------------section list-sosmed pic ------------*/
+
+    .social__title-container h1 {
+        color: #0065c3;
+        font-size: 2em;
+    }
+
+    .pepsi-sosmed-pic .social-item .icon-sosmed {
+        
+        bottom: 10px;
+        left: 10px;
+        
+    }
+
+
+
+    /*----------contact info ----------- */
+
+    .contactForm {
+        width: 50%;
+        padding: 10px;
+    }
+
+
+
+    /*-------- footer ---------------- */
+    footer .footer__linklist li a { 
+        margin: 0;
+    }
+
+    footer .footer_right {       
+        padding: 10px;
+    }
+
+    footer .footer__linklist li {
+        margin-top: 5px;
+    }
+
+}

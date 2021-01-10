@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+
+ section {
+     position: relative;
+     width: 100%;
+     padding: 100px;
+     min-height: 100vh;
+     background:  #ed1942;
+     transition: 0.5s;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ header {
+     display: flex;
+     position: absolute;
+     top: 0;
+     left: 0;
+     justify-content: space-between;
+     width: 100%;
+     align-items: center;
+     padding: 20px 100px;
+ }
+
+ header .logo {
+     position: relative;
+     max-width: 80px;
+ }
+
+ header ul {
+     display: flex;
+     position: relative;
+ }
+
+ header ul li {
+     list-style: none;
+ }
+
+ header ul li a {
+     text-decoration: none;
+     color: #fff;
+     font-weight: 400;
+     display: inline-block;
+     margin-left: 40px;
+ }
+
+ .content {
+     position: relative;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+ }
+
+ .content .textbox {
+     position: relative;
+     max-width: 600px;
+ }
+
+ .content .textbox h2 {
+     color: #fff;
+     font-size: 4em;
+     line-height: 1.5em;
+     font-weight: 900;
+     text-transform: uppercase;
+ }
+ .content .textbox h2 span {
+     font-size: 2em;
+ }
+
+ .content .textbox p {
+     margin-top: 5px;
+     color: #fff; 
+ }
+
+ .content .textbox a {
+     display: inline-block;
+     margin-top: 20px;
+     padding: 8px 20px;
+     background: #fff;
+     color: #111;
+     border-radius: 40px;
+     font-weight: 500;
+     letter-spacing: 1px;
+     text-decoration: none;
+     text-transform: uppercase;
+ }
+
+ .content .imgBox {
+    width: 600px;
+    display: flex;
+    padding-right: 50px;
+    justify-content: flex-end;
+    margin-top: 50px;
+ }
+
+ .content .imgBox img {
+     max-width: 260px;
+ }
+
+ .thumb {
+     position: absolute;
+     left: 50%;
+     bottom: 20px;
+     display: flex;
+     transform: translateX(-50%);
+ }
+
+ .thumb li {
+     list-style: none;
+     display: inline-block;
+     margin: 0 20px;
+     cursor: pointer;
+     transition: 0.5s;
+ }
+
+ .thumb li:hover {
+     transform: translateX(-15px);
+ }
+
+ .thumb li img {
+     max-width: 40px;
+ }
+
+ .sci {
+     position: absolute;
+     top: 50%;
+     right: 30px;
+     transform: translateY(-50%);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+
+ .sci li {
+     list-style: none;
+ }
+ .sci li a {
+     display: inline-block;
+     filter: invert(1);
+     margin: 5px 0;
+     transform: scale(0.6);
+
+ }
+
+
+ /* ----------------- section product ------------------- */
+
+ 
+ .section-product {
+     width: 100%;
+     padding: 100px;
+     background-color: #000;
+     color: white;
+     height: 80%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+
+}
+
+ .section-product .promotion__container1 {
+     width: 450px;
+     display: flex;
+     justify-content: flex-end;
+ }
+
+ .section-product .promotion__container1 img {
+     width: 300px;
+     
+ }
+
+ .section-product .promotion__container2 {
+     position: relative;
+     width: 450px;
+     justify-content: flex-start;
+     display: flex;
+     align-items: center;
+
+ }
+
+ .section-product .promotion__container2 h2 {
+     color: #fff;
+     font-size: 4em;
+     line-height: 1em;
+     font-weight: 900;
+     text-transform: uppercase;
+ }
+
+
+ /*---------- section list somed pic --------------------------*/
+
+
+ .section-sosmed {
+     width: 100%;
+     padding: 30px 100px;
+     background-color: #fff;
+     flex-direction: column;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+.section-sosmed .social__title-container {
+    margin-top: 30px;
+    display: flex;
+}
+
+.section-sosmed .pepsi-sosmed-pic {
+    display: flex;
+    
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.pepsi-sosmed-pic .social-item {
+    width: 25%;
+    position: relative;
+}
+
+.pepsi-sosmed-pic .social-item img {
+    width: 100%;
+}
+
+.pepsi-sosmed-pic .social-item .icon-sosmed {
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+   
+}
+.pepsi-sosmed-pic .social-item .icon-sosmed img {
+    width: 2em;
+    height: 2em;
+}
+
+.social__title-container h1 {
+    color: #0065c3;
+    font-size: 3em;
+}
+/*----------------- akhir section sosmed --------------------- */
+
+/*------------------awal section contact --------------------- */
+
+.section-contact {
+    width: 100%;
+    padding: 30px 100px;
+    background-color: #fff;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-contact .content-contact {
+    max-width: 800px;
+    text-align: center;
+}
+
+.section-contact .content-contact h2 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.section-contact .content-contact p {
+    
+    font-weight: 500;
+}
+
+.container-contact {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container-contact .contact-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-contact .contact-info .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container-contact .contact-info .box .icon {
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.container-contact .contact-info .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+
+.container-contact .contact-info .box .text h3 {
+    font-weight: 500;
+}
+
+.contactForm {
+    width: 40%;
+    padding: 40px;
+    
+}
+
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm .inputBox input, 
+.contactForm .inputBox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contactForm .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+
+}
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span
+ {
+    font-size: 12px;
+    color: #e91e63;
+    transform: translateY(-20px);
+} 
+
+.contactForm .inputBox input[type="submit"] {
+    width: 100px;
+    background: #ed1942;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+
+/* ------------------ Detail Acara ----------------- */
+
+.detail-acara {
+    margin-top: 15px;
+
+}
+
+.detail-sesi {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jam-sesi {
+    width: 400px;
+
+}
+
+.judul-sesi {
+
+    width: 400px;
+
+}
+
+.contact-wa {
+    display: flex;
+}
+
+
+.icon-wa {
+    margin-left: 10px;
+    margin-right: 8px;
+}
+
+.icon-wa img {
+    width: 30px;
+}
+
+.nomer-wa {
+
+}
+
+.nomer-wa a {
+    text-decoration: none;
+    color: black;
+}
+
+.detail-person {
+    display: flex;
+    margin: 5px;
+    align-items: center;
+}
+
+.detail-person img {
+    width: 40px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.sesi-tanggal {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+/* ------------------ footer ---------------------- */
+
+footer {
+    height: 18rem;
+    background: #ed1942;
+    padding: 80px 100px;
+    margin-top: 20px;
+    display: flex;
+
+}
+
+footer .footer-logo {
+    width: 25%;
+    
+}
+
+footer .footer-logo img {
+    width: 100px;
+    
+}
+
+
+footer .footer__linklist {
+    width: 50%;
+ 
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+footer .footer__linklist .linklist_left {
+    display: block;
+}
+footer .footer__linklist .linklist_center {
+    display: block;
+}
+footer .footer__linklist .linklist_right {
+    display: block;
+}
+
+
+footer .footer__linklist li {
+    list-style: none;
+    margin-top: 10px;
+}
+footer .footer__linklist li a {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+
+footer .footer_right {
+    width: 25%;
+    
+    padding: 35px 35px 10px 70px;
+}
+
+footer .footer_right .img-sosmed  {
+  margin: 5px;
+}
+
+footer .footer_right .img-sosmed  img {
+    width: 2em;
+    height: 2em;
+}
+
+/*----------------- end footer --------------*/
