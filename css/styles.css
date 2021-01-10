@@ -257,13 +257,28 @@
 /*------------------awal section contact --------------------- */
 
 .section-contact {
+    position: relative;
     width: 100%;
     padding: 30px 100px;
     background-color: #fff;
     flex-direction: column;
     display: flex;
     justify-content: center;
+
     align-items: center;
+}
+
+.section-contact::before {    
+      content: "";
+      background-image: url(../img/kota.png);
+      background-position: center;
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.2
 }
 
 .section-contact .content-contact {
@@ -384,7 +399,7 @@
 
 
 .sesi {
-    
+
 }
 .detail-acara {
     margin-top: 15px;
